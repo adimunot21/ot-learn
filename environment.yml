@@ -1,0 +1,16 @@
+name: ot-learn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+      - torch --index-url https://download.pytorch.org/whl/cu128
+      - POT          # cross-validation only — never call before scratch impl exists
+      - scikit-learn  # toy datasets (moons, blobs) for Phase 6
