@@ -75,6 +75,8 @@ measures), barycenters (weighted averages), and gradients. Phase 5 builds on thi
 
 In one dimension, we don't need Sinkhorn or LP at all.
 
+**Quick review:** The **CDF** (cumulative distribution function) F_μ(x) is the probability that a sample from μ lands below x — a non-decreasing function from 0 to 1. The **quantile function** F⁻¹(t) is its inverse: the value x such that F_μ(x) = t. For equal-weight samples, it's just the sorted array. (Full review in `prerequisites.md`, section 10.)
+
 **Theorem.** For distributions μ, ν on ℝ with CDFs F_μ and F_ν:
 
 ```

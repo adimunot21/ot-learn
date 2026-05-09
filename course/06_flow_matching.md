@@ -14,7 +14,9 @@ The OT coupling from Phase 3 (Sinkhorn) defines which noise sample gets paired w
 which data sample, turning those straight paths into W₂-geodesics (Phase 5 McCann
 interpolation). Everything we've built is present.
 
-**Comparison to diffusion models** (which you've already built):
+**Comparison to diffusion models:**
+Diffusion models (e.g. DDPM, Stable Diffusion 1/2) learn to generate data by reversing a noisy blurring process — a stochastic random walk from data to noise, then learned in reverse. They work well but are slow: generating one sample requires 50–1000 forward passes through a neural network.
+
 - Diffusion: noisy stochastic reverse process, 50-1000 sampling steps
 - Flow matching: deterministic ODE, 10-50 steps, straighter paths, same quality
 

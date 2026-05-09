@@ -1,5 +1,7 @@
 # Chapter 1 — Discrete Optimal Transport as a Linear Program
 
+*New to probability distributions or linear programs? Read `course/prerequisites.md` first — it covers exactly what you need. Keep `course/glossary.md` open for quick lookups.*
+
 ## The Problem and Why It Matters
 
 Imagine three bakeries and three cafes. Each bakery has a certain supply of bread.

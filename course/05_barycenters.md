@@ -39,6 +39,8 @@ the **displacement interpolant** at time t ∈ [0,1]:
 μₜ = ((1−t)·id + t·T)_# μ₀
 ```
 
+The notation `f_# μ` (f-pushforward of μ) means: apply the function f to every point sampled from μ. Here the function is `x ↦ (1−t)x + t·T(x)`, which moves each point x a fraction t of the way toward T(x). (See glossary entry "Pushforward" for more.)
+
 Each point xᵢ in μ₀ travels in a **straight line** to T(xᵢ) in μ₁.
 At time t, that point sits at (1−t)xᵢ + t·T(xᵢ).
 
